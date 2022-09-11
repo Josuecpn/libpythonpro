@@ -26,9 +26,8 @@ jobs:
         python-version: ${{ matrix.python-version }}
     - name: Install dependencies
       run: |
-        pip install -q pipenv
+        pip install -q pipenv flake8
         pipenv sync --dev
-        pipenv shell
     - name: Lint with flake8
       run: |
         flake8
