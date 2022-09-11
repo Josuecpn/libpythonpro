@@ -28,6 +28,7 @@ jobs:
       run: |
         pip install -q pipenv
         pipenv sync --dev
+        pipenv shell
     - name: Lint with flake8
       run: |
         flake8
