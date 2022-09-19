@@ -1,6 +1,6 @@
 import pytest
 
-from libpython.spam.db import Conexao
+from libpythonpro.spam.db import Conexao
 
 
 # o scope é usado para definir quantas vezes irá ser usado por situação

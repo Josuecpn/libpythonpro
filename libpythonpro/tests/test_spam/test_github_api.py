@@ -2,7 +2,7 @@ from unittest.mock import Mock
 
 import pytest
 
-from libpython import github_api
+from libpythonpro import github_api
 
 
 @pytest.fixture

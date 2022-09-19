@@ -1,6 +1,6 @@
 import pytest
 
-from libpython.spam.enviador_de_email import Enviador, EmailInvalido
+from libpythonpro.spam.enviador_de_email import Enviador, EmailInvalido
 
 
 def test_enviador_de_email():
