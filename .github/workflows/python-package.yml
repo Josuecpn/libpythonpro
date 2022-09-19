@@ -23,7 +23,7 @@ jobs:
         pipenv install -d
     - name: Lint with flake8
       run: |
-        flake8
+        pipenv run flake8
     - name: Tests with Pytest and Coverage
       run: |
-        pytest libpythonpro --cov=libpythonpro
+        pipenv run pytest libpythonpro --cov=libpythonpro
